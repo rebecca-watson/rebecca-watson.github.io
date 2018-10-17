@@ -1,7 +1,20 @@
- 
+<!DOCTYPE html>
 <html>
-  <header><title>This is title</title></header>
-  <body>
-    Hello world
-  </body>
+<body>
+<h1>Money: </h1>
+<h1 id="money">0</h1>
+<h2>Wheat</h2>
+<h3 id="wheat">0/10</h3>
+<button onclick="increment(wheat)" class="btn green">Grow</button>
+<button onclick="sell(wheat,'wheat')" class="btn orange" id="wheatSell">Sell: $0.10</button>
+<button onclick="storage(wheat,'wheat')" class="btn grey" id="wheatStorUp">Upgrade Storage: $10.00</button>
+<button onclick="auto(wheat)" class="btn blue" >Hire Farmer: $1.00</button>
+<h2>Flour</h2>
+<h3 id="flour">0/10</h3>
+<button onclick="incdec(flour,wheat)" class="btn green">Make</button>
+<button onclick="sell(flour,'flour')" class="btn orange" id="flourSell">Sell: $0.20</button>
+<button onclick="storage(flour)"class="btn grey">Upgrade Storage</button>
+<button onclick="auto2(flour,wheat)" class="btn blue">Buy Mill</button>
+
+</body>
 </html>
