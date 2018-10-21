@@ -16,8 +16,8 @@ function decrement(name) {
     }
 }
 
-function storage(name,x) {
-    var price = Number(document.getElementById(x+"StorUp").innerText.split("$")[1]);
+function storage(name) {
+    var price = Number(document.getElementById(name.id+"StorUp").innerText.split("$")[1]);
 	if (Number(money.innerHTML) >= price) {
     	var number = name.innerHTML.split("/",1);
     	var storage = name.innerHTML.split("/")[1];
@@ -44,11 +44,11 @@ function auto2(a,b) {
 	setInterval(function(){incdec(a,b);},10000);
 }
 
-function sell(name,x){
+function sell(name){
 	if (parseInt(name.innerHTML.split("/",1)) > 0){
 		decrement(name)
     	var total = Number(money.innerHTML);
-    	var price = Number(document.getElementById(x+"Sell").innerText.split("$")[1]);
+    	var price = Number(document.getElementById(name.id+"Sell").innerText.split("$")[1]);
     	total += price;
     	money.innerHTML = total.toFixed(2);
     }
