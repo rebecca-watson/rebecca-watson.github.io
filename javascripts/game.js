@@ -30,6 +30,11 @@ function storage(name) {
 }
 
 function auto(name) {
+	var total = Number(money.innerHTML);
+    var price = Number(document.getElementById(name.id+"Auto").innerText.split("$")[1]);
+    total -= price;
+    money.innerHTML = total.toFixed(2);
+	increment(wheat);
 	setInterval(function(){increment(name);},10000);
 }
 
