@@ -1,8 +1,6 @@
 # That Cookie Recipe but with SCIENCE
 
-## Watson Chocolate Chip Oatmeal Cookie
-
-### Ingredients
+## Ingredients
 - 8 tbsp salted butter (room temp)
 - 1/2 c crisco
 - 225g light brown sugar
@@ -14,6 +12,7 @@
 - 200g semi sweet morsels
 - 150g dark chocolate chips
 
+## Directions
 1. Preheat oven to 350.
 2. Beat butter, crisco and brown sugar until creamy. 
 3. Add eggs and vanilla and beat until smooth.
